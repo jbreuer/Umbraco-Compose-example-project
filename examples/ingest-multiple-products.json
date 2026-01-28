@@ -1,0 +1,142 @@
+[
+  {
+    "id": "product-001",
+    "type": "product",
+    "data": {
+      "name": "Premium Laptop Stand",
+      "sku": "PLTS-001",
+      "description": "<p>Ergonomic aluminum laptop stand designed for comfort and productivity. Adjustable height and angle for optimal viewing.</p>",
+      "price": 79.99,
+      "currency": "USD",
+      "stockQuantity": 150,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-002",
+    "type": "product",
+    "data": {
+      "name": "Wireless Ergonomic Mouse",
+      "sku": "WEM-002",
+      "description": "<p>Comfortable wireless mouse with ergonomic design. Reduces wrist strain during long work sessions.</p>",
+      "price": 49.99,
+      "currency": "USD",
+      "stockQuantity": 200,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-003",
+    "type": "product",
+    "data": {
+      "name": "Mechanical Keyboard",
+      "sku": "MK-003",
+      "description": "<p>Premium mechanical keyboard with RGB backlighting and tactile switches. Perfect for developers and gamers.</p>",
+      "price": 129.99,
+      "currency": "USD",
+      "stockQuantity": 75,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-004",
+    "type": "product",
+    "data": {
+      "name": "USB-C Hub 7-in-1",
+      "sku": "USBH-004",
+      "description": "<p>Versatile USB-C hub with HDMI, USB 3.0, SD card reader, and ethernet ports. Essential for modern laptops.</p>",
+      "price": 59.99,
+      "currency": "USD",
+      "stockQuantity": 120,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-005",
+    "type": "product",
+    "data": {
+      "name": "Noise-Cancelling Headphones",
+      "sku": "NCH-005",
+      "description": "<p>Premium over-ear headphones with active noise cancellation. Perfect for focus and concentration.</p>",
+      "price": 199.99,
+      "currency": "USD",
+      "stockQuantity": 45,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-006",
+    "type": "product",
+    "data": {
+      "name": "4K Webcam",
+      "sku": "WC4K-006",
+      "description": "<p>Ultra HD 4K webcam with autofocus and built-in microphone. Professional quality for video calls.</p>",
+      "price": 89.99,
+      "currency": "USD",
+      "stockQuantity": 60,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-007",
+    "type": "product",
+    "data": {
+      "name": "Monitor Arm Mount",
+      "sku": "MAM-007",
+      "description": "<p>Adjustable monitor arm with gas spring for smooth positioning. Supports monitors up to 32 inches.</p>",
+      "price": 69.99,
+      "currency": "USD",
+      "stockQuantity": 85,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-008",
+    "type": "product",
+    "data": {
+      "name": "Desk Mat XL",
+      "sku": "DM-008",
+      "description": "<p>Extra large desk mat with non-slip rubber base. Protects your desk and provides smooth mouse movement.</p>",
+      "price": 24.99,
+      "currency": "USD",
+      "stockQuantity": 300,
+      "isActive": true
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-009",
+    "type": "product",
+    "data": {
+      "name": "LED Desk Lamp",
+      "sku": "DL-009",
+      "description": "<p>Adjustable LED desk lamp with multiple brightness levels and color temperatures. USB-C powered.</p>",
+      "price": 44.99,
+      "currency": "USD",
+      "stockQuantity": 110,
+      "isActive": false
+    },
+    "action": "upsert"
+  },
+  {
+    "id": "product-010",
+    "type": "product",
+    "data": {
+      "name": "Cable Management Kit",
+      "sku": "CMK-010",
+      "description": "<p>Complete cable management solution with clips, sleeves, and ties. Keep your workspace tidy.</p>",
+      "price": 19.99,
+      "currency": "USD",
+      "stockQuantity": 0,
+      "isActive": false
+    },
+    "action": "upsert"
+  }
+]

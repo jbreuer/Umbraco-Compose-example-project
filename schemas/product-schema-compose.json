@@ -1,0 +1,36 @@
+{
+  "typeSchemaAlias": "product",
+  "description": "Product content type",
+  "schema": {
+    "$schema": "https://umbracocompose.com/v1/schema",
+    "allOf": [
+      {
+        "$ref": "https://umbracocompose.com/v1/node"
+      }
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "sku": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string",
+        "format": "html"
+      },
+      "price": {
+        "type": "number"
+      },
+      "currency": {
+        "type": "string"
+      },
+      "stockQuantity": {
+        "type": "integer"
+      },
+      "isActive": {
+        "type": "boolean"
+      }
+    }
+  }
+}

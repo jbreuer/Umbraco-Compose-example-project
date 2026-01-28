@@ -1,0 +1,17 @@
+query GetPublishedArticles {
+  articles(where: { 
+    article: {
+      status: "published"
+    }
+  }) {
+    items {
+      ... on Article {
+        id
+        title
+        slug
+        status
+        publishedDate
+      }
+    }
+  }
+}

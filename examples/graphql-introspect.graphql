@@ -1,0 +1,13 @@
+query IntrospectNodeFilterInput {
+  __type(name: "NodeFilterInput") {
+    name
+    kind
+    inputFields {
+      name
+      type {
+        name
+        kind
+      }
+    }
+  }
+}

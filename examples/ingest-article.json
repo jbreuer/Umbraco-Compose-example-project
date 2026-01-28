@@ -1,0 +1,17 @@
+[
+  {
+    "id": "article-001",
+    "type": "article",
+    "data": {
+      "title": "Getting Started with Umbraco Compose",
+      "slug": "getting-started-umbraco-compose",
+      "summary": "Learn how to set up and use Umbraco Compose for your headless CMS needs.",
+      "content": "<p>Umbraco Compose is a powerful platform for composing content from multiple sources. In this article, we'll explore the key concepts and how to get started.</p>",
+      "author": "John Doe",
+      "publishedDate": "2026-01-16T00:00:00Z",
+      "categories": ["tutorial", "umbraco", "headless-cms"],
+      "status": "published"
+    },
+    "action": "upsert"
+  }
+]

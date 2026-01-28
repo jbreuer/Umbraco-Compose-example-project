@@ -1,0 +1,54 @@
+{
+  "typeSchemaAlias": "article",
+  "description": "Article content type",
+  "schema": {
+    "$schema": "https://umbracocompose.com/v1/schema",
+    "allOf": [
+      {
+        "$ref": "https://umbracocompose.com/v1/node"
+      }
+    ],
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "slug": {
+        "type": "string"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "content": {
+        "type": "string",
+        "format": "html"
+      },
+      "author": {
+        "type": "string"
+      },
+      "publishedDate": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "categories": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "type": "string"
+      },
+      "featuredProducts": {
+        "type": "array",
+        "description": "Featured products for this article (automatically expanded via cross-collection reference)",
+        "items": {
+          "type": "object",
+          "$ref": "product"
+        },
+        "$delivery": {
+          "refCollection": "products"
+        }
+      }
+    }
+  }
+}

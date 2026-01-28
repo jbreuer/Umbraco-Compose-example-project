@@ -1,0 +1,16 @@
+[
+  {
+    "id": "product-001",
+    "type": "product",
+    "data": {
+      "name": "Premium Laptop Stand",
+      "sku": "PLTS-001",
+      "description": "<p>Ergonomic aluminum laptop stand designed for comfort and productivity.</p>",
+      "price": 79.99,
+      "currency": "USD",
+      "stockQuantity": 150,
+      "isActive": true
+    },
+    "action": "upsert"
+  }
+]

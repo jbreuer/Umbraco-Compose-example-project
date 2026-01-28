@@ -1,0 +1,16 @@
+query GetArticlesSorted {
+  articles(orderBy: [{ 
+    article: {
+      publishedDate: DESC
+    }
+  }]) {
+    items {
+      ... on Article {
+        id
+        title
+        publishedDate
+        status
+      }
+    }
+  }
+}

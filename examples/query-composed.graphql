@@ -1,0 +1,27 @@
+query ArticlesWithFeaturedProducts {
+  articles(where: { article: { status: "published" } }) {
+    items {
+      ... on Article {
+        id
+        title
+        slug
+        author
+        publishedDate
+        categories
+        featuredProducts {
+          items {
+            ... on Product {
+              id
+              name
+              sku
+              price
+              currency
+              stockQuantity
+              isActive
+            }
+          }
+        }
+      }
+    }
+  }
+}

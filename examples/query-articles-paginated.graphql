@@ -1,0 +1,15 @@
+query GetArticlesPaginated($first: Int, $after: String) {
+  articles(first: $first, after: $after) {
+    items {
+      ... on Article {
+        id
+        title
+        slug
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

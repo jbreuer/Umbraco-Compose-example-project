@@ -1,0 +1,20 @@
+query GetAffordableActiveProducts {
+  products(where: { 
+    product: {
+      price_lte: 100,
+      isActive: true
+    }
+  }) {
+    items {
+      ... on Product {
+        id
+        name
+        sku
+        price
+        currency
+        stockQuantity
+        isActive
+      }
+    }
+  }
+}

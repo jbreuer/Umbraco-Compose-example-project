@@ -1,0 +1,28 @@
+# Configuration files with secrets
+src/UmbracoCompose.CLI/appsettings.json
+src/UmbracoCompose.CLI/appsettings.*.json
+!src/UmbracoCompose.CLI/appsettings.example.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# .NET build artifacts
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
