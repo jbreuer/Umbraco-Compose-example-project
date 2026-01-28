@@ -16,11 +16,10 @@ An example C# client library and CLI for **[Umbraco Compose](https://umbraco.com
 
 ```bash
 git clone https://github.com/jbreuer/Umbraco-Compose-example-project.git
-cd Umbraco-Compose-example-project/src/UmbracoCompose.CLI
-cp appsettings.example.json appsettings.json
+cd Umbraco-Compose-example-project
 ```
 
-Edit `appsettings.json` with your credentials (project alias, region, client ID, client secret, personal access token).
+Copy `src/UmbracoCompose.CLI/appsettings.example.json` to `src/UmbracoCompose.CLI/appsettings.json` and edit with your credentials (project alias, region, client ID, client secret, personal access token).
 
 ### 2. Run Commands
 
