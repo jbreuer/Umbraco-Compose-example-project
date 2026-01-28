@@ -23,6 +23,8 @@ Copy `src/UmbracoCompose.CLI/appsettings.example.json` to `src/UmbracoCompose.CL
 
 ### 2. Run Commands
 
+From the `src/UmbracoCompose.CLI` folder:
+
 ```bash
 # Test authentication
 dotnet run -- auth:test
