@@ -4,13 +4,17 @@ An example C# client library and CLI for **[Umbraco Compose](https://umbraco.com
 
 > **Note:** This example focuses on Compose's core APIs using articles and products. It does not include Umbraco CMS integration.
 
-## Prerequisites
+## Getting Started
+
+You can watch a quick getting started guide here: <a href="https://youtu.be/tXdbHn14Gn8" target="_blank">https://youtu.be/tXdbHn14Gn8</a>
+
+<a href="https://youtu.be/tXdbHn14Gn8" target="_blank"><img src="https://img.youtube.com/vi/tXdbHn14Gn8/maxresdefault.jpg" height="250"></a>
+
+### Prerequisites
 
 - .NET 10.0 SDK or later
 - An Umbraco Compose account
 - Personal Access Token and OAuth Client Credentials from [Umbraco Cloud Portal](https://www.s1.umbraco.io/compose)
-
-## Quick Start
 
 ### 1. Clone and Configure
 
