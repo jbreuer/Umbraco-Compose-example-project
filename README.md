@@ -48,6 +48,7 @@ dotnet run -- query:products dev
 
 # 🎯 Query with automatic product nesting (demonstrates Compose's core value!)
 dotnet run -- query:composed dev
+dotnet run -- query:typed dev
 ```
 
 **The `query:composed` command** shows products automatically nested inside articles, demonstrating how Compose unifies content from multiple sources with zero client-side matching code.
